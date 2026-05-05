@@ -1,4 +1,4 @@
-# Base de datos: Cul d'Ampolla 👓
+# Base de datos: Pizzeria 🍕
 **Descripcion**: Este proyecto incorpora el proceso de creacion de la base de datos para una pizzeria, el repositorio contiene un unico script para la creacion del "schema" y la base de datos principal, la insercion de tablas y las restricciones relacionales.
 
 ## ⚛️ Tecnologia:
