@@ -8,7 +8,7 @@
 1. Clonar repositorio en una directorio local:
     `git clone https://github.com/EdwinB1025/S2.01.nvl1.1.git`
 2. Obeter directorio para la ejecucion de MySQL server:
-    a. From MySQL Command Line:
+    * From MySQL Command Line:
     ```sql
     SELECT @@basedir;
     /*
@@ -20,8 +20,8 @@
     1 row in set (0.00 sec)
     */
     ```
-    b. From bash/cmd/powershaell: `where mysql`.
-    c. Copy the path directly from the Program File directory in your local machine:
+    * From bash/cmd/powershaell: `where mysql`.
+    * Copy the path directly from the Program File directory in your local machine:
         `"C:\Program Files\MySQL\MySQL Server 8.0\"`
 3. Generate a session variable to launch MySQL using your path, mind you need to extend your path addind the subfolder `"/bin"`:
     `export PATH=$PATH:"/c/Program Files/MySQL/MySQL Server 8.0/bin"`
