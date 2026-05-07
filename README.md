@@ -23,7 +23,7 @@
     * From bash/cmd/powershaell: `where mysql`.
     * Copy the path directly from the Program File directory in your local machine:
         `"C:\Program Files\MySQL\MySQL Server 8.0\"`
-3. Generate a session variable to launch MySQL using your path, mind you need to extend your path addind the subfolder `"/bin"`:
+3. Generate a session variable to launch MySQL using your path, mind you need to extend your path adding the subfolder `"/bin"`:
     `export PATH=$PATH:"/c/Program Files/MySQL/MySQL Server 8.0/bin"`
 4. Connect to your local MySQL server.
     ```bash
